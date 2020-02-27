@@ -8,3 +8,11 @@ Do pull request to the corresponding branch:
 * Controller
 * View
 Use Master branch just to add files or directories related to tree directory of Flask architecture. 
+
+
+## Running into debug mode
+```sh
+export FLASK_APP=app
+export FLASK_DEBUG=1
+python -m flask run
+```
